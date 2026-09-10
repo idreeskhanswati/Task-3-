@@ -1,0 +1,208 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+.pic{
+   height: 100px;
+   width: 100px;
+   margin: 20px;
+}
+.container
+{
+    display: flex;
+    height: 200vh;
+    margin-left: 20px;
+
+}
+.right{
+
+    width:200%;
+    background-color: darkred;
+}
+.left{
+    
+    width: 200%;
+    background-color:darkred;
+}
+.text{
+position: relative;
+right: -8rem;
+line-height: 1.5;
+top: 20rem;
+}
+.text h1{
+    font-size: 6rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+}
+.text p{
+    font-size: 1.3rem;
+}
+.text h3{
+    font-size: 30px;
+    
+}
+.login{
+    position: absolute;
+    right: 7.5rem;
+    margin-top: 100px;
+}
+.login input{
+    height: 60px;
+    width: 515px;
+    background-color: darkred;
+    border: 2px solid white;
+    
+    
+}
+.Award h3{
+    font-weight: 700;
+    position: absolute;
+    top: 30rem;
+    right: 27rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Award p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 33rem;
+    right: 3rem;
+    color: white;
+}
+.check-box{
+    position: absolute;
+    top:35rem ;
+    right: 32.5rem;
+    color: white;
+}
+.login-1{
+    position: absolute;
+    top: 37rem;
+    right:7rem ;
+}
+.login-1 textarea{
+    height: 80px;
+    width: 520px;
+    background-color: darkred;
+
+}
+.check-box1{
+    position: absolute;
+    top: 43rem;
+    right: 30.5rem;
+    color: white;
+}
+.login-2{
+    position: absolute;
+    top: 45rem;
+    right: 7rem;
+}
+.login-2 textarea{
+    height: 80px;
+    width: 520px;
+    background-color: darkred;
+}
+.check-box2{
+    position: absolute;
+    top: 51rem;
+    right: 29rem;
+    color: white;
+}
+.login-3{
+    position: absolute;
+    top: 53rem;
+    right: 7rem;
+}
+.login-3 textarea{
+    height: 80px;
+    width: 520px;
+    background-color: darkred;
+}
+.check-box3{
+    position: absolute;
+    top: 59rem;
+    right: 29.5rem;
+    color: white;
+}
+.login-4{
+    position: absolute;
+    top: 61rem;
+    right: 7rem;
+}
+.login-4 textarea{
+    height: 80px;
+    width: 520px;
+    background-color: darkred;
+}
+.check-box4{
+    color: white;
+    position: absolute;
+    top: 67rem;
+    right: 30rem;
+}
+.login-5{
+    position: absolute;
+    top: 70rem;
+    right: 7rem;
+}
+.login-5 textarea{
+    height: 80px;
+    width: 520px;
+    background-color: darkred;
+}
+.submit{
+   position:absolute;
+   right: 13rem;
+   top: 78rem;
+
+}
+.submit button{
+    height: 60px;
+    width: 430px;
+}
+textarea{
+    color: white;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+.plus{
+   position: absolute;
+   top: 35rem;
+   left: 74rem;
+   height: 18px;
+   width: 16px;
+}
+.plus1{
+    position: absolute;
+   top: 43rem;
+   left: 74rem;
+   height: 18px;
+   width: 16px;
+}
+.plus2{
+    position: absolute;
+   top: 51rem;
+   left: 74rem;
+   height: 18px;
+   width: 16px;
+}
+.plus3{
+    position: absolute;
+   top: 59rem;
+   left: 74rem;
+   height: 18px;
+   width: 16px;
+}
+.plus4{
+    position: absolute;
+   top: 67rem;
+   left: 74rem;
+   height: 18px;
+   width: 16px;
+}
