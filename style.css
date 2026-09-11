@@ -13,7 +13,7 @@
 .container
 {
     display: flex;
-    height: 200vh;
+    height: 170vh;
     margin-left: 20px;
 
 }
@@ -41,9 +41,11 @@ top: 20rem;
 }
 .text p{
     font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .text h3{
-    font-size: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .login{
@@ -80,6 +82,8 @@ top: 20rem;
     top:35rem ;
     right: 32.5rem;
     color: white;
+    
+    
 }
 .login-1{
     position: absolute;
@@ -148,7 +152,7 @@ top: 20rem;
 }
 .login-5{
     position: absolute;
-    top: 70rem;
+    top: 69rem;
     right: 7rem;
 }
 .login-5 textarea{
@@ -158,13 +162,16 @@ top: 20rem;
 }
 .submit{
    position:absolute;
-   right: 13rem;
-   top: 78rem;
+   right: 12.5rem;
+   top: 77rem;
 
 }
 .submit button{
     height: 60px;
     width: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    font-weight: 400;
 }
 textarea{
     color: white;
