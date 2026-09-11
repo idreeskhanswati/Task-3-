@@ -1,215 +1,177 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    /* height: 100vh; */
 
 }
-
-.pic{
-   height: 100px;
-   width: 100px;
-   margin: 20px;
+html body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
-.container
-{
-    display: flex;
-    height: 170vh;
-    margin-left: 20px;
-
-}
-.right{
-
-    width:200%;
-    background-color: darkred;
-}
-.left{
+main{
+    background-color: rgb(124, 36, 36);
+    height: 1350px;
+    margin-left: 25px;
+    margin-top: 30px;
+     position: relative;
+     display: flex;
+        clip-path: polygon(0 0,100% 0 ,100% 90%, 87% 100%,0 100%);
     
-    width: 200%;
-    background-color:darkred;
+
+}
+header img{
+    margin-left: 30px;
+}
+.text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.2rem;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 850;
+}
+.text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 900;
+    letter-spacing: opx;
+
 }
 .text{
-position: relative;
-right: -8rem;
-line-height: 1.5;
-top: 20rem;
-}
-.text h1{
-    font-size: 6rem;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:700;
+   margin-left: 125px;
+   margin-top: 360px;
 }
 .text p{
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
 }
-.text h3{
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.login{
-    position: absolute;
-    right: 7.5rem;
+.container{
+    position: relative;
+    left: 6.5rem;
+    top: 70px; */
     margin-top: 100px;
 }
-.login input{
+.input{
+    width: 500px;
     height: 60px;
-    width: 515px;
-    background-color: darkred;
-    border: 2px solid white;
+    margin: 10px;
+     color: white;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+      background-color: rgb(124, 36, 36);
+      border: 2px solid white;
     
-    
-}
-.Award h3{
-    font-weight: 700;
-    position: absolute;
-    top: 30rem;
-    right: 27rem;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.Award p{
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 33rem;
-    right: 3rem;
-    color: white;
-}
-.check-box{
-    position: absolute;
-    top:35rem ;
-    right: 32.5rem;
-    color: white;
-    
-    
-}
-.login-1{
-    position: absolute;
-    top: 37rem;
-    right:7rem ;
-}
-.login-1 textarea{
-    height: 80px;
-    width: 520px;
-    background-color: darkred;
 
-}
-.check-box1{
-    position: absolute;
-    top: 43rem;
-    right: 30.5rem;
-    color: white;
-}
-.login-2{
-    position: absolute;
-    top: 45rem;
-    right: 7rem;
-}
-.login-2 textarea{
-    height: 80px;
-    width: 520px;
-    background-color: darkred;
-}
-.check-box2{
-    position: absolute;
-    top: 51rem;
-    right: 29rem;
-    color: white;
-}
-.login-3{
-    position: absolute;
-    top: 53rem;
-    right: 7rem;
-}
-.login-3 textarea{
-    height: 80px;
-    width: 520px;
-    background-color: darkred;
-}
-.check-box3{
-    position: absolute;
-    top: 59rem;
-    right: 29.5rem;
-    color: white;
-}
-.login-4{
-    position: absolute;
-    top: 61rem;
-    right: 7rem;
-}
-.login-4 textarea{
-    height: 80px;
-    width: 520px;
-    background-color: darkred;
-}
-.check-box4{
-    color: white;
-    position: absolute;
-    top: 67rem;
-    right: 30rem;
-}
-.login-5{
-    position: absolute;
-    top: 69rem;
-    right: 7rem;
-}
-.login-5 textarea{
-    height: 80px;
-    width: 520px;
-    background-color: darkred;
-}
-.submit{
-   position:absolute;
-   right: 12.5rem;
-   top: 77rem;
-
-}
-.submit button{
-    height: 60px;
-    width: 430px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:2rem;
-    font-weight: 400;
 }
 textarea{
+    width: 500px;
+    height: 70px;
+    /* margin: 10px; */
+      background-color: rgb(124, 36, 36);
+      border: 2px solid white;
+      margin-left: 0%;
+      color: white;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    
+}
+#101{
+    height: -1rem;
+}
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+button{
+    width: 500px;
+    height: 50px;
+    /* margin-left: 25px; */
+    /* margin-top: 30px; */
+    /* font-size: 1rem; */
+}
+.left, .right{
+    width: 50%;
+
+}
+.main-box{
+    display: grid;
+    width: 550px;
+    min-height:100px ;
+    margin-top: 3px;
+    position: relative;
+}
+.top{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: start;
+gap: 10px;
+padding-left: 0px;
+}
+.box1, .box2{
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
     color: white;
-    font-size: 1rem;
+    /* border: 2px solid black; */
+
+}
+
+.bottom{
+      height: 75px;
+      padding: 15px;
+      /* border: 1px solid black; */
+}
+.box2 button{
+    /* margin-top: 9px;
+    padding-left: 0%; */
+    width: 19px;
+    height: 20px;
+    margin-top: 0px;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
+}
+.main-box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.main-box p{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: white;
+}
+.btn{
+    font-size: 2rem;
+    margin-left: 13px;
+    margin-top: 30px;
+    color: rgb(66, 61, 61);
+
+}
+.my-checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background-color:  rgb(124, 36, 36);
     border: 1px solid white;
+    border-radius: 1px;
+    cursor: pointer;
 }
-.plus{
-   position: absolute;
-   top: 35rem;
-   left: 74rem;
-   height: 18px;
-   width: 16px;
+
+/* When checked */
+.my-checkbox:checked {
+    background-color: rgb(124, 36, 36);
+    border-color: white;
 }
-.plus1{
-    position: absolute;
-   top: 43rem;
-   left: 74rem;
-   height: 18px;
-   width: 16px;
-}
-.plus2{
-    position: absolute;
-   top: 51rem;
-   left: 74rem;
-   height: 18px;
-   width: 16px;
-}
-.plus3{
-    position: absolute;
-   top: 59rem;
-   left: 74rem;
-   height: 18px;
-   width: 16px;
-}
-.plus4{
-    position: absolute;
-   top: 67rem;
-   left: 74rem;
-   height: 18px;
-   width: 16px;
+.my-checkbox:checked::after {
+    content: "✓";
+    color: white;
+    font-size: 15px;
 }
