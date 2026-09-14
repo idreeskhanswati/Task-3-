@@ -52,7 +52,7 @@ header{
     text-align: center;
 }
 .club-down img{
-    height: 58%;
+    height:57%;
     
 }
 .club-down h4{
@@ -66,7 +66,7 @@ header{
 }
 .clubs{
     display: flex;
-    gap: 25px;
+    gap: 30px;
     padding-top:50px;
     padding-left: 20px;
 }
