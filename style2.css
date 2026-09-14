@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: darkred;
+    padding-top: 50px;
+    padding-left: 170px;
+    padding-bottom: 200px;
+     clip-path: polygon(0 0,100% 0, 100% 75%, 87% 100%, 0 100%);
+}
+.text h1{
+    font-size: 123px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+.text h2{
+    font-size: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.text p{
+    font-size: 30.5px;
+    line-height: 1.5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.logo img{
+    height: 240px;
+    
+
+}
+.club-up{
+    display: flex;
+    margin-top: 80px;
+
+}
+.club-up h1{
+    font-weight: 800;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.club-up img{
+    height: 57px;
+    margin: 30px;
+}
+.club-down{
+    text-align: center;
+}
+.club-down img{
+    height: 58%;
+    
+}
+.club-down h4{
+    color:darkred ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.club-down h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+.clubs{
+    display: flex;
+    gap: 25px;
+    padding-top:50px;
+    padding-left: 20px;
+}
+.hero{
+    padding-left: 140px;
+    
+}
+.report{
+    background-color: darkred;
+    margin-top: 85px;
+}
+.par h1{
+    padding: 180px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+}
+footer{
+     clip-path: polygon(0 0,100% 0, 100% 75%, 87% 100%, 0 100%);
+}
